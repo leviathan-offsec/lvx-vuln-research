@@ -1,0 +1,19 @@
+# Public coordination inventory.
+# Use documentation-only addresses here. Keep real IPs in a private inventory.
+
+hosts: []
+
+# Example entry:
+# - id: iot-lab-001
+#   vendor: Example
+#   model: Example Gateway
+#   firmware: 1.2.3
+#   hardware: rev-a
+#   network: isolated-lab
+#   address: 192.0.2.10
+#   ports:
+#     - 443/tcp
+#   status: available
+#   owner: researcher-handle
+#   updated: 2026-10-09
+#   notes: "Web UI available; reset before handoff"
