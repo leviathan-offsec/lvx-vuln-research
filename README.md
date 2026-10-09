@@ -93,6 +93,7 @@ unverified.
 | --- | --- | --- | --- |
 | [CVE-2026-88771](./CVE-2026-88771) | Citrix NetScaler | Log poisoning and pre-auth command execution | Local lab model |
 | [CVE-2026-88772](./CVE-2026-88772) | Citrix NetScaler | DTLS reassembly accounting and memory overflow | Local instrumented model |
+| [CVE-2026-4810](./CVE-2026-4810) | Google ADK | Unauthenticated agent builder upload and callable injection | Local lab model |
 
 ## Principles
 
@@ -108,6 +109,7 @@ unverified.
 
 ## Tools
 
+- [cve-scout](./tools/cve_scout.py) - CVE intelligence, research harness scaffolding, and CVE JSON 5.0 CNA submission generator.
 - [adk-audit](./tools/adk-audit) - Root-cause analysis and auditing notes.
 
 ## Contributing
